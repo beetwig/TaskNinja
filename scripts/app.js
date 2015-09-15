@@ -13,6 +13,9 @@ var app = angular
       .when('/', {
         templateUrl: 'views/main.html'
       })
+      .when('/login',{
+        templateUrl: 'views/login.html'
+      })
       .when('/post',{
         templateUrl: 'views/post.html',
         controller: 'TaskController'
